@@ -1,0 +1,31 @@
+:root {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    background-image: url(https://image.shutterstock.com/image-photo/blur-garden-tree-nature-background-260nw-232539058.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+
+h1 {
+    display: flex;
+    font-family: 'Indie Flower', cursive;
+    background-image: linear-gradient( rgba(250, 250, 250, 0.6), rgba(240, 240, 230, 0.9));
+    align-items: center;
+    justify-content: center;
+    border: 3px dashed green;
+    padding: 3px;
+    margin: auto 5em;
+}
+
+slideShow{
+display: flex;
+height: 50px;
+width: 70px;
+
+}
