@@ -10,8 +10,6 @@ html {
     background-position: top;
 }
 
-
-
 h1 {
     display: flex;
     font-family: 'Indie Flower', cursive;
@@ -23,9 +21,23 @@ h1 {
     margin: auto 5em;
 }
 
-slideShow{
-display: flex;
-height: 50px;
-width: 70px;
+#slideShow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10em;
+}
 
+img {
+    border: 3px dashed green;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button {
+    border: 3px dashed green;
 }
